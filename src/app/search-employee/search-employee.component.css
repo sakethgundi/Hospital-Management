@@ -1,0 +1,28 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+@import "~font-awesome/css/font-awesome.css";
+
+.byName{
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: lightgray;
+}
+
+.byId{
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: lightgray;
+}
+.byMobileNo{
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: lightgray;
+}
+.byAadharNo{
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: lightgray;
+}

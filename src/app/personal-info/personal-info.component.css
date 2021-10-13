@@ -1,0 +1,12 @@
+.button
+{
+    background-color: lightseagreen;
+    color: white;
+}
+
+.size
+{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+}
