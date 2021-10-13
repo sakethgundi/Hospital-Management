@@ -28,14 +28,7 @@ import { RouterLinkWithHref, RouterModule } from '@angular/router';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    // RouterModule.forRoot([
-    //   {
-    //     path:'' ,component:PersonalInfoComponent
-    //   },
-    //   {
-    //     path:'employee-details' , component:EmployeeDetailsComponent
-    //   }
-    // ])
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
