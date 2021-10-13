@@ -2,17 +2,17 @@
     <div style="text-align: center">   
     <h1>Sign In</h1>
     <div class=signIn> &nbsp;&nbsp; please fill in this form to access your account! </div> <hr> <br>
-    <form>
+    <form (ngSubmit)="onSubmit(signInForm)" #signInForm="ngForm">
         Role
-        <select name="Role" id="Role">
+        <select name="Role" id="Role" ngModel>
             <option value="Doctor">Doctor</option>
             <option value="Administrator">Administrator</option>
             <option value="Receptionist">Receptionist</option>
         </select>  <br><br>
         Username
-        <input type="text" name="Username" placeholder="Username"> <br><br>
+        <input type="text" name="Username" placeholder="Username" autofocus required ngModel> <br><br>
         Password
-        <input type="password" name="Password" placeholder="Password"> <br><br>
+        <input type="password" name="Password" placeholder="Password" required ngModel> <br><br>
         <input type="submit" value="submit" class="button">  &nbsp;
         <button class=button1>clear</button>  &nbsp;
 

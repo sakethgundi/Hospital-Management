@@ -11,7 +11,7 @@ import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 
 const routes: Routes = [
   {
-    path:'sign-in' , component:SignInComponent
+    path:'' , component:SignInComponent
   },
   {
     path:'welcome-page', component:WelcomePageComponent
