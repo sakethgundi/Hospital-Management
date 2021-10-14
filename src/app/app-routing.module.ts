@@ -3,15 +3,16 @@ import { RouterModule, Routes } from '@angular/router';
 import { AddEmployeeComponent } from './add-employee/add-employee.component';
 import { AllEmployeesComponent } from './all-employees/all-employees.component';
 import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
+import { LoginComponent } from './login/login.component';
 import { PersonalInfoComponent } from './personal-info/personal-info.component';
 import { SearchEmployeeComponent } from './search-employee/search-employee.component';
-import { SignInComponent } from './sign-in/sign-in.component';
+//import { SignInComponent } from './sign-in/sign-in.component';
 import { SignUpComponent } from './sign-up/sign-up.component';
 import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 
 const routes: Routes = [
   {
-    path:'' , component:SignInComponent
+    path:'' , component:LoginComponent
   },
   {
     path:'welcome-page', component:WelcomePageComponent
@@ -44,7 +45,7 @@ const routes: Routes = [
 export class AppRoutingModule { }
 
 export const routingComponents=[
-  SignInComponent, 
+  LoginComponent, 
   PersonalInfoComponent, 
   AddEmployeeComponent,
   SearchEmployeeComponent,

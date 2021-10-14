@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Router } from '@angular/router';
 import { AuthenticationService } from './authentication.service';
 
 @Component({
@@ -8,6 +9,7 @@ import { AuthenticationService } from './authentication.service';
 })
 export class AppComponent {
   title = 'hospital';
-  constructor(public AuthenticationService:AuthenticationService){
+   constructor(public AuthenticationService:AuthenticationService){
+
   }
 }

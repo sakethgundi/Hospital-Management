@@ -7,10 +7,11 @@ import { AppComponent } from './app.component';
 //import { PersonalInfoComponent } from './personal-info/personal-info.component';
 // import { SearchEmployeeComponent } from './search-employee/search-employee.component';
 // import { AllEmployeesComponent } from './all-employees/all-employees.component';
- import { SignInComponent } from './sign-in/sign-in.component';
+// import { SignInComponent } from './sign-in/sign-in.component';
 // import { EmployeeDetailsComponent } from './employee-details/employee-details.component';
 // import { SignUpComponent } from './sign-up/sign-up.component';
 import { RouterLinkWithHref, RouterModule } from '@angular/router';
+import { LoginComponent } from './login/login.component';
 //import { WelcomePageComponent } from './welcome-page/welcome-page.component';
 
 @NgModule({
@@ -20,7 +21,8 @@ import { RouterLinkWithHref, RouterModule } from '@angular/router';
    // PersonalInfoComponent,
     // SearchEmployeeComponent,
     // AllEmployeesComponent,
-     SignInComponent,
+    // SignInComponent,
+    LoginComponent,
    // WelcomePageComponent,
     // EmployeeDetailsComponent,
     // SignUpComponent
